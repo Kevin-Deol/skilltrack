@@ -5,7 +5,7 @@ import Google from "next-auth/providers/google"
 import Credentials from "next-auth/providers/credentials"
 import bcrypyt from "bcryptjs"
  
-const prisma = new PrismaClient().$extends(withAccelerate())
+//const prisma = new PrismaClient().$extends(withAccelerate())
 
 
 export const { handlers, signIn, signOut, auth } = NextAuth({

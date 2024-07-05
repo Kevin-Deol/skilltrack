@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import laptopGuy from '../asset/Guywithlaptop.svg'
 import lines from '../asset/Frame.svg'
+import Image from 'Image/next'
 
 const MySubscriptionCard: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const MySubscriptionCard: React.FC = () => {
     <h1 className="absolute text-xl left-[13px] top-24" >GET PREMIUM NOW</h1>
     <p className="absolute" >Reach our special features by subscribing</p>
     <Link href="#" className="absolute top-48 left-[50px] py-3 px-10 w-48 bg-blue-600 text-white">SUBSCRIBE</Link>
-    <img className="" src={lines} alt="Lines" />
+    <Image className="" src={lines} alt="Lines" />
 </div>
   )
 }
